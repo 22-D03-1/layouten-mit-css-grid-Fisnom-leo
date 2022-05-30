@@ -3,12 +3,17 @@
     margin: 5;
     box-sizing: border-box;
     font-family: "Maven Pro", sans-serif;
+    
+    
+
 }
 section {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 100px);
     gap: 10px;
+    width: 100vw;
+    height: 100vh;
 }
 img {
     width: 100%;
@@ -42,6 +47,7 @@ h1 {
     letter-spacing: 20px;
     font-weight: 400;
     text-decoration: underline;
+    
 
     color: red;
 }
